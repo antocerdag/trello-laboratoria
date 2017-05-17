@@ -1,15 +1,9 @@
-document.getElementById("botoncito").addEventListener("click", 
+document.getElementById("tareita").addEventListener("click", 
 
 function newLista(){
 	var caja = document.getElementById("newCaja");
 	var nuevoContenedor = document.createElement("span");
 	nuevoContenedor.setAttribute("id", "newLista");
-
-	var nuevaTareaArea = document.createElement("textarea");
-	nuevaTareaArea.setAttribute("placeholder", "Añadir una lista");
-	nuevaTareaArea.setAttribute("id", "nuevaTareaArea");
-
-	caja.appendChild(nuevaTareaArea);
 
 	var boton = document.createElement("button");
 	boton.setAttribute("type", "submit");
@@ -17,6 +11,14 @@ function newLista(){
 
 	var botontxt = document.createTextNode("Añadir");
 
+
+	var nuevaTareaArea = document.createElement("textarea");
+	nuevaTareaArea.setAttribute("placeholder", "Añadir una lista");
+	nuevaTareaArea.setAttribute("id", "nuevaTareaArea");
+
+	caja.appendChild(nuevaTareaArea);
+
+	
 	
 	caja.appendChild(boton);
 	boton.appendChild(botontxt);

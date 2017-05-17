@@ -50,6 +50,18 @@ h2{
     background-color: #118DE0;
 }
 
+#tareita{
+	background-color: #0079bf;
+	color: #FFF;
+	cursor: pointer;
+	padding: 10px 130px 10px 10px;
+	border-radius: 5px;
+}
+
+#tareita:hover{
+	background-color: #0C65A0;
+}
+
 button{
 	background-color: #FFFFFF;	
 	border-radius: 6px;
